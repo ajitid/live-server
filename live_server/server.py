@@ -18,9 +18,12 @@ class HtmlHandler(tornado.web.RequestHandler):
     def get(self, captured):
         if captured is None:
             captured = self.default_filename
-        injected_html = inject_live_server_script(
-            os.path.join(self.root, captured))
-        self.write(injected_html)
+        try:
+            injected_html = inject_live_server_script(
+                os.path.join(self.root, captured))
+            self.write(injected_html)
+        except FileNotFoundError:
+            self.set_status(404)
 
 
 class LiveServerHandler(tornado.websocket.WebSocketHandler):
