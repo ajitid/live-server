@@ -1,7 +1,7 @@
 import click
 
-import global_vars
-import watcher
+from . import global_vars
+from . import watcher
 
 
 @click.command()

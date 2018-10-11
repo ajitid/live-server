@@ -6,8 +6,8 @@ import tornado.web
 import tornado.websocket
 import tornado.autoreload
 
-import global_vars
-from inject import inject_live_server_script
+from . import global_vars
+from .inject import inject_live_server_script
 
 
 class HtmlHandler(tornado.web.RequestHandler):

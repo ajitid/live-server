@@ -5,8 +5,8 @@ from watchdog.events import FileSystemEventHandler
 import tornado.ioloop
 import tornado.autoreload
 
-import global_vars
-import server
+from . import global_vars
+from . import server
 
 app = None
 observer = None
