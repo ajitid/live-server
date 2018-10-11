@@ -1,10 +1,35 @@
 # Live Server
 
-_No where near to use right now. Working on it._
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
-## Todo
+Serve static files and reload them when they get changed. Great for development!
 
-- [ ] add badges
-- [ ] add readme
-- [ ] publish on test pypi
-- [ ] publish on pypi
+Inspired by [live-server](https://www.npmjs.com/package/live-server) for Node.
+
+## Install
+
+Install it globally
+
+```
+pip install live-server
+```
+
+## Use
+
+Navigate to the folder which needs to be served and start Live Server from  command line using
+
+```
+live-server
+```
+
+You can use
+
+```
+live-server --help
+```
+
+to explore more options.
+
+## Found a bug?
+
+Raise an issue at its [repo](https://www.github.com/ajitid/live_server).

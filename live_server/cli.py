@@ -10,7 +10,10 @@ from . import watcher
 def cli(port, path):
     global_vars.PORT = int(port)
     global_vars.PATH = path
-    watcher.main()
+    try:
+        watcher.main()
+    except OSError:
+        print('Port {} is already in use. Use `-P` flag and specify a different port.'.format(global_vars.PORT))
 
 
 if __name__ == '__main__':
