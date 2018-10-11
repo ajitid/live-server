@@ -18,4 +18,10 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    entry_points='''
+        [console_scripts]
+        cli=live_server.cli:cli
+    ''',
+    install_requires=["Click==7.0", "tornado==5.1.1",
+                      "watchdog==0.9.0", "beautifulsoup4==4.6.3"],
 )
