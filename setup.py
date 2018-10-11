@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="live_server",
-    version="0.0.1",
+    version="0.0.4",
     author="Ajit Singh",
     author_email="ajit.singh2905@gmail.com",
     description="Serves your pages for development and automatically reloads when changed.",
@@ -22,6 +22,9 @@ setuptools.setup(
         [console_scripts]
         cli=live_server.cli:cli
     ''',
-    install_requires=["Click==7.0", "tornado==5.1.1",
-                      "watchdog==0.9.0", "beautifulsoup4==4.6.3"],
+    install_requires=["Click", "tornado",
+                      "watchdog", "beautifulsoup4"],
 )
+
+# install_requires=["Click == 7.0", "tornado == 5.1.1",
+#                   "watchdog == 0.9.0", "beautifulsoup4 == 4.6.3"],
