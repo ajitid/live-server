@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="live_server",
-    version="0.0.6",
+    version="0.0.61",
     author="Ajit Singh",
     author_email="ajit.singh2905@gmail.com",
     description="Serves your pages for development and automatically reloads when changed.",
@@ -13,6 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/ajitid/live_server",
     packages=setuptools.find_packages(),
+    package_data={'live_server': ['liveServer.js']},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
