@@ -20,7 +20,7 @@ setuptools.setup(
     ],
     entry_points='''
         [console_scripts]
-        cli=live_server.live-server
+        cli=live_server.live_server:cli
     ''',
     install_requires=["Click", "tornado",
                       "watchdog", "beautifulsoup4"],
