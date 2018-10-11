@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="live_server",
-    version="0.0.4",
+    version="0.0.5",
     author="Ajit Singh",
     author_email="ajit.singh2905@gmail.com",
     description="Serves your pages for development and automatically reloads when changed.",
