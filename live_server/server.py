@@ -23,7 +23,7 @@ class HtmlHandler(tornado.web.RequestHandler):
                 os.path.join(self.root, captured))
             self.write(injected_html)
         except FileNotFoundError:
-            self.set_status(404)
+            self.send_error(404)
 
 
 class LiveServerHandler(tornado.websocket.WebSocketHandler):
