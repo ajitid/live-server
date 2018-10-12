@@ -1,5 +1,3 @@
-import sys
-
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import tornado.ioloop
@@ -32,12 +30,8 @@ def watch():
     live_server_event_handler = LiveServerEventHandler()
     observer = Observer()
     observer.schedule(live_server_event_handler,
-                      global_vars.get_resolved_path(), recursive=True)
+                      global_vars.PATH, recursive=True)
     observer.start()
-
-
-def set_path_from_argv():
-    global_vars.PATH = sys.argv[1] if len(sys.argv) > 1 else '.'
 
 
 def main():
@@ -51,8 +45,3 @@ def main():
         loop.start()
     except KeyboardInterrupt:
         print('\nLive Server stopped.')
-
-
-if __name__ == '__main__':
-    set_path_from_argv()
-    main()

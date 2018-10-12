@@ -16,19 +16,23 @@ pip install live-server
 
 ## Use
 
-Navigate to the folder which needs to be served and start Live Server from  command line using
+Start Live Server in a folder with command line by using
 
 ```
 live-server
 ```
 
-You can use
+or give it a path
+
+```
+live-server ../static
+```
+
+Explore more options like changing port number using
 
 ```
 live-server --help
 ```
-
-to explore more options.
 
 ## Found a bug?
 

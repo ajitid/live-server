@@ -42,7 +42,7 @@ def broadcast_reload():
 
 
 def make_app():
-    STATIC_PATH = global_vars.get_resolved_path()
+    STATIC_PATH = global_vars.PATH
 
     LIVE_SERVER_JS_PATH = os.path.join(os.path.dirname(__file__))
     config = {
