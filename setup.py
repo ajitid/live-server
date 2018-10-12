@@ -12,6 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/ajitid/live_server',
+    package_dir={'': 'src'},
     packages=setuptools.find_packages(),
     package_data={'live_server': ['liveServer.js']},
     classifiers=[
