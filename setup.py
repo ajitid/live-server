@@ -5,14 +5,13 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='live_server',
-    version='0.9.4',
+    version='0.9.5',
     author='Ajit Singh',
     author_email='ajit.singh2905@gmail.com',
     description='Serves your pages for development and automatically reloads when changed.',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/ajitid/live_server',
-    package_dir={'': 'src'},
     packages=setuptools.find_packages(),
     package_data={'live_server': ['liveServer.js']},
     classifiers=[
