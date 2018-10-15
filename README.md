@@ -2,7 +2,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
-Serves static files and reloads them when they get changed. Great for development!
+Reloads your webpage when static files are changed.
 
 Inspired by [live-server](https://www.npmjs.com/package/live-server) for Node.
 
