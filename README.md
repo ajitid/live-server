@@ -36,4 +36,4 @@ live-server --help
 
 ## Found a bug?
 
-Raise an issue at its [repo](https://www.github.com/ajitid/live_server).
+Raise an issue at its [repo](https://www.github.com/ajitid/live-server).
