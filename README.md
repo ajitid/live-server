@@ -1,6 +1,4 @@
-<h1 align="center">
-  <img src="live_server_logo.png" alt="Live Server" width="600px" />
-</h1>
+# Live Server
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
