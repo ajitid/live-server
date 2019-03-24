@@ -4,6 +4,8 @@
 
 Reloads your webpage when static files are changed.
 
+See [Live Server in action](https://youtu.be/FP7QqNv9e4E).
+
 Inspired by [live-server](https://www.npmjs.com/package/live-server) for Node.
 
 ## Install
