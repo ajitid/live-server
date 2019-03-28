@@ -2,6 +2,8 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
+[![Downloads](https://pepy.tech/badge/live-server)](https://pepy.tech/project/live-server)
+
 Reloads your webpage when static files are changed.
 
 See [Live Server in action](https://youtu.be/FP7QqNv9e4E).
