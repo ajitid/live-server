@@ -27,6 +27,6 @@ setuptools.setup(
         live-server=live_server.cli:cli
     ''',
     python_requires='>=3.4',
-    install_requires=['Click == 7.0', 'tornado == 5.1.1',
+    install_requires=['Click == 7.0', 'tornado == 6.3.3',
                       'watchdog == 0.9.0', 'beautifulsoup4 == 4.6.3'],
 )
